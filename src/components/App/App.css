@@ -1,0 +1,11 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page__search-form {
+  margin-top: -80px;
+}
+
