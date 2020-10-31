@@ -1,0 +1,49 @@
+.about {
+    display: grid;
+    grid-template-columns: 464px 600px;
+    align-items: center;
+    column-gap: 56px;
+    width: 100%;
+    max-width: 1440px;
+    padding: 80px 104px 80px;
+    box-sizing: border-box;
+}
+
+.about__avatar {
+    width: 100%;
+    border-radius: 1000px;
+}
+
+.about__avatar::after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.about__subtitle {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #1a1b22;
+    max-width: 496px;
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+}
+
+.about__paragraph {
+    margin-top: 0;
+    margin-bottom: 16px;
+    max-width: 600px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.about__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
