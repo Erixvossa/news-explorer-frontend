@@ -9,7 +9,9 @@ import Footer from '../Footer/Footer';
 import LoginPopup from '../LoginPopup/LoginPopup';
 import RegisterPopup from '../RegisterPopup/RegisterPopup';
 import { searchResExample, NewsExample } from '../../utils/constants';
-
+import { register, login, checkAuth, createArticle, deleteArticle, getArticles } from '../../utils/MainApi';
+import { searchNews } from '../../utils/NewsApi';
+import { CurrentUserContext } from '../../contexts/CurrentUserContext';
 
 
 function App(props) {
@@ -95,6 +97,7 @@ function App(props) {
 
     return (
         <div className="page">
+          <CurrentUserContext.Provider value={currentUser}>
             <Header
                 activePage={activePage}
                 setMainPageActive={setMainPageActive}
@@ -121,6 +124,7 @@ function App(props) {
 
             <LoginPopup loginPopupOpened={loginPopupOpened} onClose={closeLoginPopup} onLinkClick={popupChange} />
             <RegisterPopup registerPopupOpened={registerPopupOpened} onClose={closeRegisterPopup} onLinkClick={popupChange} />
+          </CurrentUserContext.Provider>
         </div>
     )
 }
