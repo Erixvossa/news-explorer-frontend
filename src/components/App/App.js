@@ -30,7 +30,7 @@ function App(props) {
   const [loading, setLoading] = React.useState('');
   const [searchQueryFailed, setSearchQueryFailed] = React.useState(false);
 
-  // Для открытия-закрытия попапов
+
   const [loginPopupOpened, setLoginPopupOpened] = React.useState(false);
   const loginPopupOpenedRef = useRef();
   loginPopupOpenedRef.current = loginPopupOpened;
@@ -39,7 +39,7 @@ function App(props) {
   registerPopupOpenedRef.current = registerPopupOpened;
   const [successPopupOpened, setSuccessPopupOpened] = React.useState(false);
 
-  // Для валидации форм
+
   const [values, setValues] = React.useState({});
   const [errors, setErrors] = React.useState({});
   const [isValid, setIsValid] = React.useState(false);
