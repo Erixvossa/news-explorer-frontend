@@ -10,7 +10,7 @@ function SavedNews(props) {
 
     React.useEffect(() => {
         props.getArticles();
-    }, [props]);
+    }, []);
 
     return (
       <>
