@@ -19,12 +19,12 @@ function Footer(props) {
                     </li>
                 </div>
                 <li className="footer__icon">
-                    <a className="footer__icon-link" href="https://github.com/Serezhqa" target="_blank" rel="noopener noreferrer">
+                    <a className="footer__icon-link" href="https://github.com/Erixvossa" target="_blank" rel="noopener noreferrer">
                         <img className="footer__icon-image" src={github} alt="Github Icon" />
                     </a>
                 </li>
                 <li className="footer__icon">
-                    <a className="footer__icon-link" href="https://vk.com/serezhqa" target="_blank" rel="noopener noreferrer">
+                    <a className="footer__icon-link" href="https://vk.com/erixvossa" target="_blank" rel="noopener noreferrer">
                         <img className="footer__icon-image" src={vk} alt="VK Icon" />
                     </a>
                 </li>
