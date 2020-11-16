@@ -5,5 +5,5 @@
 
 Готовый проект доступен по ссылке:
 
-http://erixvossa.students.nomoreparties.co
+http://ervossa.students.nomoreparties.co
 
